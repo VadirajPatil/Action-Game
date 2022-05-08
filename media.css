@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1400px) {
+    .obstacle{
+        height: 14vh;
+        width: 14vw;
+    }
+
+    .boy{
+        width: 21vw;
+        height: 30vh;
+    }
+
+    .gameOver{
+        font-size: 9vh;
+        top: 32vh;
+    }
+
+    .welcome{
+        /* font-size: 5vh; */
+        top: 12vh;
+        right: 8vw;
+    }
+
+    #scoreCont{
+        top: 13vh;
+    }
+  }
+
+  @media only screen and(max-width: 810px) {
+    #scoreCont{
+        right: 38vw;
+        padding: 27px 42px;
+        font-weight: bolder;
+        top: 24vh;
+    }
+
+    .welcome{
+        top: 1vh;
+        right: 2vw;
+        font-size: 5.5vh;
+    }
+
+    .gameOver{
+        font-size: 7vh;
+        top: 25vh;
+    }
+
+    .obstacle{
+        height: 10vh;
+        width: 17vw;
+    }
+
+    .boy{
+        width: 26vw;
+        height: 25vh;
+    }
+  }
+
+  @media only screen and(max-width: 360px) {
+      .gameOver{
+        font-size: 7vh;
+        top: 34vh;
+      }
+      .boy{
+        width: 44vw;
+        height: 26vh;
+      }
+      .obstacle{
+        width: 44vw;
+        height: 22vh;
+      }
+      #scoreCont{
+        right: 20vw;
+        padding: 21px 37px;
+        font-weight: bolder;
+        top: 24vh;
+      }
+  }
