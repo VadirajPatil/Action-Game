@@ -28,7 +28,7 @@ body {
 }
 
 .boy {
-  background-image: url(/boy.gif);
+  background-image: url(boy.gif);
   background-repeat: no-repeat;
   height: 38vh;
   width: 14vw;
@@ -39,7 +39,7 @@ body {
 }
 
 .obstacle {
-  background-image: url(/clipart3384471.png);
+  background-image: url(clipart3384471.png);
   background-repeat: no-repeat;
   height: 20vh;
   width: 12vw;
